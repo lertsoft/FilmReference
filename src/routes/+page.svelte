@@ -340,12 +340,13 @@
   }
 
   .app-container {
-    min-height: 100vh;
-    min-height: 100dvh;
+    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 1;
+    overflow: hidden;
   }
 
   /* Utility classes for responsive display */
@@ -547,8 +548,8 @@
     grid-template-columns: 300px 1fr 360px;
     gap: 1.25rem;
     padding: 1.25rem 1.5rem;
-    max-height: calc(100vh - 120px);
     overflow: hidden;
+    height: 100%;
   }
 
   .panel {
