@@ -66,4 +66,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-Built while drnking chocolate milk by [Ronny](https://ron.nyc) in NYC.
+Built while drinking chocolate milk by [Ronny](https://ron.nyc) in NYC.
