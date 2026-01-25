@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
+       <stop offset="0%" style="stop-color:#f3f4f6"/>
+       <stop offset="40%" style="stop-color:#d1d5db"/>
+       <stop offset="100%" style="stop-color:#6b7280"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Film Leader -->
+  <path d="M18 10 H28 C29.5 10 30.5 11 30.5 12.5 V21.5 C30.5 23 29.5 24 28 24 H18" fill="#1f2937" />
+  <!-- Sprocket Holes -->
+  <rect x="20" y="12" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+  <rect x="24" y="12" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+  <rect x="28" y="12" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+  
+  <rect x="20" y="19" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+  <rect x="24" y="19" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+  <rect x="28" y="19" width="2" height="3" rx="0.5" fill="#f3f4f6" opacity="0.8"/>
+
+  <!-- Canister Body -->
+  <rect x="4" y="5" width="14" height="22" rx="1" fill="#374151"/>
+  
+  <!-- Brand Label -->
+  <rect x="4" y="8" width="14" height="16" fill="url(#brand)"/>
+  
+  <!-- Canister Top Cap -->
+  <rect x="2" y="4" width="18" height="2" rx="1" fill="url(#metal)"/>
+  <!-- Spool Nub -->
+  <rect x="8" y="2" width="6" height="2" rx="0.5" fill="#9ca3af"/>
+  
+  <!-- Canister Bottom Cap -->
+  <rect x="2" y="26" width="18" height="2" rx="1" fill="url(#metal)"/>
+
+</svg>
