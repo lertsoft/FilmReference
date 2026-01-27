@@ -177,6 +177,15 @@
                                 >This Thing is Crazy Fast - Kodak Part 3</a
                             >
                         </li>
+                        <li>
+                            <a
+                                href="https://filmcolors.org"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Timeline of Historical Colors in Photography
+                                and Film in Chronological Order</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>

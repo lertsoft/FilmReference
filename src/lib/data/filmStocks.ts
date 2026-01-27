@@ -250,11 +250,11 @@ export const filmStocks: FilmStock[] = [
   },
   {
     "id": "film_onehundred_100",
-    "name": "Film Onehundred 100 (Aerocolor IV)",
+    "name": "Film Onehundred 100",
     "iso": 100,
-    "manufacturer": "Various (Kodak Aerocolor IV Respool)",
-    "type": "Color Negative (Aerial Surveillance Film)",
-    "description": "A unique stock with a 'split complementary' personality. Likely Aerocolor IV, it offers high contrast and a very distinct color separation.",
+    "manufacturer": "Various",
+    "type": "Color Negative",
+    "description": "A unique stock with a 'split complementary' personality. It offers high contrast and a very distinct color separation.",
     "image": "/films/film_onehundred_100.png",
     "vectorscope_analysis": {
       "overall_bias": "Red Dominant / Cyan-Green Split",
