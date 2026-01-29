@@ -9,11 +9,26 @@ const ASSETS = [
     ...files  // everything in `static`
 ];
 
+// HTML pages to pre-cache for offline navigation
+const ROUTES = ['/', '/about'];
+
 // Skip waiting to activate immediately on update
 (self as any).addEventListener('install', (event: any) => {
     async function addFilesToCache() {
         const cache = await caches.open(CACHE);
         await cache.addAll(ASSETS);
+
+        // Pre-cache HTML pages for offline navigation
+        for (const route of ROUTES) {
+            try {
+                const response = await fetch(route);
+                if (response.ok) {
+                    await cache.put(route, response);
+                }
+            } catch {
+                // Ignore fetch errors during install
+            }
+        }
     }
 
     event.waitUntil(
